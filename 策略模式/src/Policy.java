@@ -1,2 +1,3 @@
-public class Policy {
+public interface Policy {
+    void role();
 }
