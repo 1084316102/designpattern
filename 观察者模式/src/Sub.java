@@ -2,8 +2,7 @@ import java.util.Enumeration;
 import java.util.Vector;
 
 public abstract class Sub implements Subject {
-    private Vector<Observer> vector = new Vector<
-            >();
+    private Vector<Observer> vector = new Vector<>();
     @Override
     public void add(Observer observer) {
         vector.add(observer);
